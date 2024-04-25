@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <h1>Información personal</h1>
+    <form action="">
+        <label for="estudiante"></label>
+        <input type="text" id="estudiante" name="estudiante" value="ESTUDIANTE" readonly>
+        <br>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <label for="edad">Edad</label>
+        <input type="number" name="number" id="number">
+        <br>
+
+        <label for="nacionalidad">Nacionalidad</label>
+        <input type="text" name="pais" id="pais">
+        <br>
+
+        <label for="seleccionable">Condicion laboral</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="desempleado">Desempleado</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="medioTiempo">Medio tiempo</option>
+            <option value="jornadaCompleta">Jornada completa</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Gustos personales</legend>
+            <label for="gustos">Gustos musicales</label>
+            <input type="text" name="gustos" id="gustos">
+            <br>
+            <label for="comida">Comida preferida</label>
+            <select name="comida" id="comida">
+                <option value="milanga">Milanesa</option>
+                <option value="pasta">Pasta</option>
+                <option value="asado">Asado</option>
+            </select>
+            <input type="submit" value="Enviar">
+            <label for="checkbox">Recordar los datos</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </fieldset>
+    </form>
+</body>
+
+</html>

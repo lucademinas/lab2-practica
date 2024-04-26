@@ -1,0 +1,88 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.card-uno{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+    
+}
+
+.card-dos{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+}
+
+.card-tres{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+}
+
+.encabezado-uno{
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.encabezado-dos{
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.encabezado-tres{
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pie-uno{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+}
+
+.pie-dos{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+}
+
+.pie-tres{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+}
+
+.cuerpo-uno{
+    padding: 8px;
+}
+
+.cuerpo-dos{
+    flex: 4;
+    padding: 8px;
+}
+
+.cuerpo-tres{
+    flex: 4;
+    padding: 8pxs;
+}
